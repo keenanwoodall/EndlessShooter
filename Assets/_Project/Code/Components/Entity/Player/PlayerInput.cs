@@ -9,7 +9,9 @@ public class PlayerInput : MonoBehaviour
 
 	private void Update ()
 	{
-		var input = new Vector2 (Input.GetAxisRaw (horizontalAxis), Input.GetAxisRaw (verticalAxis)).normalized;
+		var input = new Vector2 (Input.GetAxisRaw (horizontalAxis), Input.GetAxisRaw (verticalAxis));
+		input = Vector2.ClampMagnitude (input, 1f);
+
 		onMovementInput.Invoke (input);
 	}
 }
