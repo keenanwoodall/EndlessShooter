@@ -387,6 +387,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 10}
   m_EdgeRadius: 0
+--- !u!1 &1077930459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1077930460}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1077930460
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077930459}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2015488689}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1265406340
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,7 +590,7 @@ GameObject:
   - component: {fileID: 1961823608}
   - component: {fileID: 1961823607}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -639,7 +668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2015488689}
   m_Layer: 0
-  m_Name: LevelBounds
+  m_Name: Bounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -651,7 +680,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2015488688}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -659,6 +688,6 @@ Transform:
   - {fileID: 1022331076}
   - {fileID: 165055596}
   - {fileID: 1420401347}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1077930460}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
