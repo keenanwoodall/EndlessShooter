@@ -3,6 +3,31 @@ using UnityEngine;
 
 public class PoolManager : MonoBehaviour
 {
+	public class ObjectInstance
+	{
+		GameObject instance;
+
+		bool hasPoolObject;
+		PoolObject poolObject;
+
+		public ObjectInstance (GameObject instance)
+		{
+			this.instance = instance;
+			poolObject = instance.GetComponent<PoolObject> ();
+			hasPoolObject = poolObject != null;
+		}
+
+		public void Reuse (Vector3 position, Quaternion rotation)
+		{
+			if (hasPoolObject)
+				poolObject.OnReuse ();
+
+			instance.SetActive (true);
+			instance.transform.position = position;
+			instance.transform.rotation = rotation;
+		}
+	}
+
 	private static PoolManager instance;
 	public static PoolManager Instance
 	{
@@ -16,21 +41,21 @@ public class PoolManager : MonoBehaviour
 		}
 	}
 
-	private Dictionary<int, Queue<GameObject>> poolDictionary = new Dictionary<int, Queue<GameObject>> ();
+	private Dictionary<int, Queue<ObjectInstance>> poolDictionary = new Dictionary<int, Queue<ObjectInstance>> ();
 
 	public void CreatePool (GameObject prefab, int size)
 	{
 		var poolKey = prefab.GetInstanceID ();
 
 		if (!poolDictionary.ContainsKey (poolKey))
-			poolDictionary.Add (poolKey, new Queue<GameObject> ());
+			poolDictionary.Add (poolKey, new Queue<ObjectInstance> ());
 
 		for (int i = 0; i < size; i++)
 		{
 			var newObject = Instantiate (prefab) as GameObject;
 			newObject.SetActive (false);
 
-			poolDictionary[poolKey].Enqueue (newObject);
+			poolDictionary[poolKey].Enqueue (new ObjectInstance (newObject));
 		}
 	}
 
@@ -43,9 +68,7 @@ public class PoolManager : MonoBehaviour
 			var objectToReuse = poolDictionary[poolKey].Dequeue ();
 			poolDictionary[poolKey].Enqueue (objectToReuse);
 
-			objectToReuse.SetActive (true);
-			objectToReuse.transform.position = position;
-			objectToReuse.transform.rotation = rotation;
+			objectToReuse.Reuse (position, rotation);
 		}
 	}
 }

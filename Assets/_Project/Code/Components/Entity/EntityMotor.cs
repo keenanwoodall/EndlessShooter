@@ -22,6 +22,6 @@ public class EntityMotor : MonoBehaviour
 
 	public void AddForce (Vector2 force)
 	{
-		rigidbody.velocity += force;
+		rigidbody.AddForce (force, ForceMode2D.Impulse);
 	}
 }

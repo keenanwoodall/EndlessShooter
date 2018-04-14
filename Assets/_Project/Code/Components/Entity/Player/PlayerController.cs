@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
 	public void HandleMovementInput (Vector2 input)
 	{
-		motor.AddForce (input * speed);
+		motor.AddForce (input * speed * Time.deltaTime);
 		lastInput = input;
 	}
 
