@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
 
 	public void HandleMovementInput (Vector2 input)
 	{
-		motor.AddVelocity (input * speed);
+		motor.AddForce (input * speed);
 		lastInput = input;
 	}
 
@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
 
 	private void Dash ()
 	{
-		motor.AddVelocity (lastInput * dashVelocity);
+		motor.AddForce (lastInput * dashVelocity);
 		lastDashTime = Time.time;
 	}
 }

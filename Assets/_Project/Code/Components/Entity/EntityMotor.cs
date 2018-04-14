@@ -20,8 +20,8 @@ public class EntityMotor : MonoBehaviour
 		rigidbody.velocity = Vector2.SmoothDamp (rigidbody.velocity, Vector3.zero, ref velocityRef, deaccelerationDuration, float.MaxValue, Time.deltaTime);
 	}
 
-	public void AddVelocity (Vector2 velocity)
+	public void AddForce (Vector2 force)
 	{
-		rigidbody.velocity += velocity;
+		rigidbody.velocity += force;
 	}
 }
