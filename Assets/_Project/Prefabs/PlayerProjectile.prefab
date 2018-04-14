@@ -36,10 +36,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4841716249357512}
+  - component: {fileID: 114406933695514638}
   - component: {fileID: 114292618167817536}
   - component: {fileID: 114070411050414836}
   - component: {fileID: 114270497349918732}
-  - component: {fileID: 114406933695514638}
+  - component: {fileID: 114959188381767908}
   - component: {fileID: 50803796037814250}
   - component: {fileID: 61162897796581420}
   m_Layer: 10
@@ -186,6 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  invincible: 0
   onDamaged:
     m_PersistentCalls:
       m_Calls: []
@@ -193,6 +195,17 @@ MonoBehaviour:
   onKilled:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 114959188381767908}
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 114406933695514638}
         m_MethodName: Destroy
         m_Mode: 1
@@ -216,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b7b56b181bf63a4f944a63fbbcf630d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
+  speed: 200
 --- !u!114 &114406933695514638
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -233,3 +246,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114959188381767908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654387276978304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0125177b17b47f24fbcd31108da56332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1996958051900246, guid: f43a435046df52846ab83877fbe28343, type: 2}
