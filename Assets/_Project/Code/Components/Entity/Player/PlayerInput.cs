@@ -4,8 +4,10 @@ public class PlayerInput : MonoBehaviour
 {
 	public string horizontalAxis = "Horizontal";
 	public string verticalAxis = "Vertical";
+	public string dashButton = "Dash";
 
-	public InputVector2Event onMovementInput = new InputVector2Event ();
+	public InputMovementEvent onMovementInput = new InputMovementEvent ();
+	public InputDashEvent onDashInput = new InputDashEvent ();
 
 	private void Update ()
 	{
@@ -13,5 +15,8 @@ public class PlayerInput : MonoBehaviour
 		input = Vector2.ClampMagnitude (input, 1f);
 
 		onMovementInput.Invoke (input);
+
+		if (Input.GetButtonDown (dashButton))
+			onDashInput.Invoke ();
 	}
 }

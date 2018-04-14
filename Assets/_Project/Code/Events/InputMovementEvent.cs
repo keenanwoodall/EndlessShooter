@@ -2,4 +2,4 @@
 using UnityEngine.Events;
 
 [System.Serializable]
-public class InputVector2Event : UnityEvent<Vector2> { }
+public class InputMovementEvent : UnityEvent<Vector2> { }

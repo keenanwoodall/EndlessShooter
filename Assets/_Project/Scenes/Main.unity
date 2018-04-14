@@ -159,7 +159,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 41382946}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e522a4f06d96bd448ff74684b366f13, type: 3}
+  m_Script: {fileID: 11500000, guid: a9d0176018805b34c8c869c59f31383c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
@@ -177,6 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalAxis: Horizontal
   verticalAxis: Vertical
+  dashButton: Dash
   onMovementInput:
     m_PersistentCalls:
       m_Calls:
@@ -191,7 +192,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: InputVector2Event, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    m_TypeName: InputMovementEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  onDashInput:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: InputDashEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
 --- !u!4 &41382950
 Transform:
