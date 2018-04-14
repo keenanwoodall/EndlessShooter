@@ -1,18 +1,16 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent (typeof (EntityMotor))]
 public class PlayerController : MonoBehaviour
 {
 	public float speed = 5f;
-	public float dashSpeedScalar = 50f;
+	public float dashVelocity = 50f;
 	public float dashDuration = 0.1f;
 	public float dashCooldownDuration = 0.5f;
 
 	private EntityMotor motor;
 	private Vector2 lastInput;
 	private float lastDashTime;
-	private Coroutine dashRoutine;
 
 	private void Awake ()
 	{
@@ -21,19 +19,14 @@ public class PlayerController : MonoBehaviour
 
 	public void HandleMovementInput (Vector2 input)
 	{
-		motor.SetTargetVelocity (input * speed);
+		motor.AddVelocity (input * speed);
 		lastInput = input;
 	}
 
 	public void HandleDashInput ()
 	{
 		if (CanDash ())
-		{
-			if (dashRoutine != null)
-				StopCoroutine (dashRoutine);
-
-			dashRoutine = StartCoroutine (DashRoutine ());
-		}
+			Dash ();
 	}
 
 	private bool CanDash ()
@@ -41,13 +34,9 @@ public class PlayerController : MonoBehaviour
 		return Time.time - lastDashTime > dashCooldownDuration;
 	}
 
-	private IEnumerator DashRoutine ()
+	private void Dash ()
 	{
-		motor.SetVelocityScalar (dashSpeedScalar);
-
-		yield return new WaitForSeconds (dashDuration);
-
-		motor.SetVelocityScalar (1f);
+		motor.AddVelocity (lastInput * dashVelocity);
 		lastDashTime = Time.time;
 	}
 }

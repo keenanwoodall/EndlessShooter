@@ -1,5 +1,3 @@
-﻿using UnityEngine;
-
-public class PlayerMotor : EntityMotor
+﻿public class PlayerMotor : EntityMotor
 {
 }

@@ -3,12 +3,10 @@
 [RequireComponent (typeof (Rigidbody2D))]
 public class EntityMotor : MonoBehaviour
 {
-	public float accelerationDuration = 0.1f;
+	public float deaccelerationDuration = 0.1f;
 
 	private new Rigidbody2D rigidbody;
-	private float velocityScalar = 1f;
-	private Vector2 targetVelocity;
-	private Vector2 targetVelocityRef;
+	private Vector2 velocityRef;
 
 	private void Awake ()
 	{
@@ -19,16 +17,11 @@ public class EntityMotor : MonoBehaviour
 
 	private void Update ()
 	{
-		rigidbody.velocity = Vector2.SmoothDamp (rigidbody.velocity, targetVelocity * velocityScalar, ref targetVelocityRef, accelerationDuration, float.MaxValue, Time.deltaTime);
+		rigidbody.velocity = Vector2.SmoothDamp (rigidbody.velocity, Vector3.zero, ref velocityRef, deaccelerationDuration, float.MaxValue, Time.deltaTime);
 	}
 
-	public void SetTargetVelocity (Vector2 velocity)
+	public void AddVelocity (Vector2 velocity)
 	{
-		targetVelocity = velocity;
-	}
-
-	public void SetVelocityScalar (float scale)
-	{
-		velocityScalar = scale;
+		rigidbody.velocity += velocity;
 	}
 }
