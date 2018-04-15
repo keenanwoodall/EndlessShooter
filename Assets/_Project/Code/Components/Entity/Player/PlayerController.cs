@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent (typeof (EntityMotor))]
 public class PlayerController : MonoBehaviour
@@ -7,6 +8,8 @@ public class PlayerController : MonoBehaviour
 	public float dashVelocity = 50f;
 	public float dashDuration = 0.1f;
 	public float dashCooldownDuration = 0.5f;
+
+	public UnityEvent onDash = new UnityEvent ();
 
 	private EntityMotor motor;
 	private Vector2 lastInput;
@@ -38,5 +41,6 @@ public class PlayerController : MonoBehaviour
 	{
 		motor.AddForce (lastInput * dashVelocity);
 		lastDashTime = Time.time;
+		onDash.Invoke ();
 	}
 }
