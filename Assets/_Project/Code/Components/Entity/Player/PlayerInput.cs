@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
+using Rewired;
 
 public class PlayerInput : MonoBehaviour
 {
-	public string horizontalAxis = "Horizontal";
-	public string verticalAxis = "Vertical";
+	public string horizontalAxis = "Move Horizontal";
+	public string verticalAxis = "Move Vertical";
 	public string dashButton = "Dash";
 
 	public InputMovementEvent onMovementInput = new InputMovementEvent ();
@@ -11,12 +12,13 @@ public class PlayerInput : MonoBehaviour
 
 	private void Update ()
 	{
-		var input = new Vector2 (Input.GetAxisRaw (horizontalAxis), Input.GetAxisRaw (verticalAxis));
+		var player = ReInput.players.GetPlayer ("Player");
+		var input = new Vector2 (player.GetAxisRaw (horizontalAxis), player.GetAxisRaw (verticalAxis));
 		input = Vector2.ClampMagnitude (input, 1f);
 
 		onMovementInput.Invoke (input);
 
-		if (Input.GetButtonDown (dashButton))
+		if (player.GetButtonDown (dashButton))
 			onDashInput.Invoke ();
 	}
 }
