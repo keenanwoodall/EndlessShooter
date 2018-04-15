@@ -11,7 +11,6 @@ public class PickComponentBasedOnInput : MonoBehaviour
 	private void Update ()
 	{
 		var player = ReInput.players.GetPlayer ("Player");
-		print (player.GetAxisRaw ("Move Mouse Horizontal"));
 		foreach (var axis in aInputAxes)
 		{
 			if (Mathf.Abs (player.GetAxisRaw (axis)) > 0.01f)
