@@ -28,7 +28,7 @@ GameObject:
   - component: {fileID: 50423525285428020}
   - component: {fileID: 61666884569033242}
   m_Layer: 12
-  m_Name: Enemy1
+  m_Name: Enemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,7 @@ Transform:
   m_GameObject: {fileID: 1284495600512242}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
+  m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_Children:
   - {fileID: 4357399855660728}
   m_Father: {fileID: 4050434079031798}
@@ -157,7 +157,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: e98c8a59d8d0af743815896e19a2d835, type: 2}
+  - {fileID: 2100000, guid: 53a67f3ac4708344b92bc7f96087040d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -195,7 +195,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.025
+  m_Mass: 0.05
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -227,7 +227,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.3}
+  m_Size: {x: 0.6, y: 0.6}
   m_EdgeRadius: 0
 --- !u!114 &114222362086958164
 MonoBehaviour:
@@ -244,331 +244,331 @@ MonoBehaviour:
   skinnedTarget: {fileID: 0}
   vertexData:
   - position: {x: 5, y: -5.684342e-14, z: 5}
-    basePosition: {x: 5, y: 0, z: 5}
+    basePosition: {x: 5, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 4, y: -5.684342e-14, z: 5}
-    basePosition: {x: 4, y: 0, z: 5}
+    basePosition: {x: 4, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 3, y: -5.684342e-14, z: 5}
-    basePosition: {x: 3, y: 0, z: 5}
+    basePosition: {x: 3, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 1.9999999, y: -5.684342e-14, z: 5}
-    basePosition: {x: 1.9999999, y: 0, z: 5}
+    basePosition: {x: 1.9999999, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0.99999994, y: -5.684342e-14, z: 5}
-    basePosition: {x: 0.99999994, y: 0, z: 5}
+    basePosition: {x: 0.99999994, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0, y: -5.684342e-14, z: 5}
-    basePosition: {x: 0, y: 0, z: 5}
+    basePosition: {x: 0, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.0000002, y: -5.684342e-14, z: 5}
-    basePosition: {x: -1.0000002, y: 0, z: 5}
+    basePosition: {x: -1.0000002, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.9999999, y: -5.684342e-14, z: 5}
-    basePosition: {x: -1.9999999, y: 0, z: 5}
+    basePosition: {x: -1.9999999, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -3, y: -5.684342e-14, z: 5}
-    basePosition: {x: -3, y: 0, z: 5}
+    basePosition: {x: -3, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -4.0000005, y: -5.684342e-14, z: 5}
-    basePosition: {x: -4.0000005, y: 0, z: 5}
+    basePosition: {x: -4.0000005, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -5, y: -5.684342e-14, z: 5}
-    basePosition: {x: -5, y: 0, z: 5}
+    basePosition: {x: -5, y: -1.110223e-16, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 5, y: 0, z: 4}
-    basePosition: {x: 5, y: 0, z: 4}
+    basePosition: {x: 5, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 4, y: 0, z: 4}
-    basePosition: {x: 4, y: 0, z: 4}
+    basePosition: {x: 4, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 3, y: 0, z: 4}
-    basePosition: {x: 3, y: 0, z: 4}
+    basePosition: {x: 3, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 1.9999999, y: 0, z: 4}
-    basePosition: {x: 1.9999999, y: 0, z: 4}
+    basePosition: {x: 1.9999999, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0.99999994, y: 0, z: 4}
-    basePosition: {x: 0.99999994, y: 0, z: 4}
+    basePosition: {x: 0.99999994, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0, y: 0, z: 4}
-    basePosition: {x: 0, y: 0, z: 4}
+    basePosition: {x: 0, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.0000002, y: 0, z: 4}
-    basePosition: {x: -1.0000002, y: 0, z: 4}
+    basePosition: {x: -1.0000002, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.9999999, y: 0, z: 4}
-    basePosition: {x: -1.9999999, y: 0, z: 4}
+    basePosition: {x: -1.9999999, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -3, y: 0, z: 4}
-    basePosition: {x: -3, y: 0, z: 4}
+    basePosition: {x: -3, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -4.0000005, y: 0, z: 4}
-    basePosition: {x: -4.0000005, y: 0, z: 4}
+    basePosition: {x: -4.0000005, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -5, y: 0, z: 4}
-    basePosition: {x: -5, y: 0, z: 4}
+    basePosition: {x: -5, y: -8.881784e-17, z: 4}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 5, y: 5.684342e-14, z: 3}
-    basePosition: {x: 5, y: 0, z: 3}
+    basePosition: {x: 5, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 4, y: 5.684342e-14, z: 3}
-    basePosition: {x: 4, y: 0, z: 3}
+    basePosition: {x: 4, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 3, y: 5.684342e-14, z: 3}
-    basePosition: {x: 3, y: 0, z: 3}
+    basePosition: {x: 3, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 1.9999999, y: 5.684342e-14, z: 3}
-    basePosition: {x: 1.9999999, y: 0, z: 3}
+    basePosition: {x: 1.9999999, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0.99999994, y: 5.684342e-14, z: 3}
-    basePosition: {x: 0.99999994, y: 0, z: 3}
+    basePosition: {x: 0.99999994, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0, y: 5.684342e-14, z: 3}
-    basePosition: {x: 0, y: 0, z: 3}
+    basePosition: {x: 0, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.0000002, y: 5.684342e-14, z: 3}
-    basePosition: {x: -1.0000002, y: 0, z: 3}
+    basePosition: {x: -1.0000002, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.9999999, y: 5.684342e-14, z: 3}
-    basePosition: {x: -1.9999999, y: 0, z: 3}
+    basePosition: {x: -1.9999999, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -3, y: 5.684342e-14, z: 3}
-    basePosition: {x: -3, y: 0, z: 3}
+    basePosition: {x: -3, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -4.0000005, y: 5.684342e-14, z: 3}
-    basePosition: {x: -4.0000005, y: 0, z: 3}
+    basePosition: {x: -4.0000005, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -5, y: 5.684342e-14, z: 3}
-    basePosition: {x: -5, y: 0, z: 3}
+    basePosition: {x: -5, y: -6.6613384e-17, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 5, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: 5, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: 5, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 4, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: 4, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: 4, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 3, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: 3, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: 3, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 1.9999999, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: 1.9999999, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: 1.9999999, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0.99999994, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: 0.99999994, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: 0.99999994, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: 0, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: 0, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.0000002, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: -1.0000002, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: -1.0000002, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.9999999, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: -1.9999999, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: -1.9999999, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -3, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: -3, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: -3, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -4.0000005, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: -4.0000005, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: -4.0000005, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -5, y: 1.32009e-14, z: 1.9999999}
-    basePosition: {x: -5, y: 2.3249496e-14, z: 1.9999999}
+    basePosition: {x: -5, y: -4.4408918e-17, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 5, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: 5, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: 5, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 4, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: 4, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: 4, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 3, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: 3, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: 3, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 1.9999999, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: 1.9999999, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: 1.9999999, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0.99999994, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: 0.99999994, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: 0.99999994, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: 0, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: 0, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.0000002, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: -1.0000002, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: -1.0000002, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.9999999, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: -1.9999999, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: -1.9999999, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -3, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: -3, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: -3, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -4.0000005, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: -4.0000005, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: -4.0000005, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -5, y: 6.60045e-15, z: 0.99999994}
-    basePosition: {x: -5, y: 1.1624748e-14, z: 0.99999994}
+    basePosition: {x: -5, y: -2.2204459e-17, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.4}
@@ -639,332 +639,332 @@ MonoBehaviour:
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.5}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 5, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: 5, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 5, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: 5, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: 4, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 4, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: 4, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: 3, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 3, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: 3, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: 1.9999999, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 1.9999999, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: 1.9999999, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: 0.99999994, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 0.99999994, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: 0.99999994, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: 0, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 0, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: 0, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: -1.0000002, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -1.0000002, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: -1.0000002, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: -1.9999999, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -1.9999999, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: -1.9999999, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: -3, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -3, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: -3, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: -4.0000005, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -4.0000005, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: -4.0000005, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: -3.044162e-14, z: -1.0000002}
-    basePosition: {x: -5, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -5, y: 2.64018e-14, z: -1.0000002}
+    basePosition: {x: -5, y: 2.2204466e-17, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 5, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: 5, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: 5, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 4, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: 4, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: 4, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 3, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: 3, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: 3, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 1.9999999, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: 1.9999999, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: 1.9999999, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0.99999994, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: 0.99999994, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: 0.99999994, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: 0, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: 0, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.0000002, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: -1.0000002, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: -1.0000002, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.9999999, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: -1.9999999, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: -1.9999999, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -3, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: -3, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: -3, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -4.0000005, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: -4.0000005, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: -4.0000005, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -5, y: -1.32009e-14, z: -1.9999999}
-    basePosition: {x: -5, y: -2.3249496e-14, z: -1.9999999}
+    basePosition: {x: -5, y: 4.4408918e-17, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 5, y: -5.684342e-14, z: -3}
-    basePosition: {x: 5, y: 0, z: -3}
+    basePosition: {x: 5, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 4, y: -5.684342e-14, z: -3}
-    basePosition: {x: 4, y: 0, z: -3}
+    basePosition: {x: 4, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 3, y: -5.684342e-14, z: -3}
-    basePosition: {x: 3, y: 0, z: -3}
+    basePosition: {x: 3, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 1.9999999, y: -5.684342e-14, z: -3}
-    basePosition: {x: 1.9999999, y: 0, z: -3}
+    basePosition: {x: 1.9999999, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0.99999994, y: -5.684342e-14, z: -3}
-    basePosition: {x: 0.99999994, y: 0, z: -3}
+    basePosition: {x: 0.99999994, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0, y: -5.684342e-14, z: -3}
-    basePosition: {x: 0, y: 0, z: -3}
+    basePosition: {x: 0, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.0000002, y: -5.684342e-14, z: -3}
-    basePosition: {x: -1.0000002, y: 0, z: -3}
+    basePosition: {x: -1.0000002, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.9999999, y: -5.684342e-14, z: -3}
-    basePosition: {x: -1.9999999, y: 0, z: -3}
+    basePosition: {x: -1.9999999, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -3, y: -5.684342e-14, z: -3}
-    basePosition: {x: -3, y: 0, z: -3}
+    basePosition: {x: -3, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -4.0000005, y: -5.684342e-14, z: -3}
-    basePosition: {x: -4.0000005, y: 0, z: -3}
+    basePosition: {x: -4.0000005, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -5, y: -5.684342e-14, z: -3}
-    basePosition: {x: -5, y: 0, z: -3}
+    basePosition: {x: -5, y: 6.6613384e-17, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 5, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: 5, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: 5, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 4, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: 4, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: 4, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 3, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: 3, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: 3, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 1.9999999, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: 1.9999999, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: 1.9999999, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0.99999994, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: 0.99999994, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: 0.99999994, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: 0, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: 0, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.0000002, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: -1.0000002, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: -1.0000002, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.9999999, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: -1.9999999, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: -1.9999999, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -3, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: -3, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: -3, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -4.0000005, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: -4.0000005, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: -4.0000005, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -5, y: 5.28036e-14, z: -4.0000005}
-    basePosition: {x: -5, y: 9.2997983e-14, z: -4.0000005}
+    basePosition: {x: -5, y: 8.881785e-17, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 5, y: 5.684342e-14, z: -5}
-    basePosition: {x: 5, y: 0, z: -5}
+    basePosition: {x: 5, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 4, y: 5.684342e-14, z: -5}
-    basePosition: {x: 4, y: 0, z: -5}
+    basePosition: {x: 4, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 3, y: 5.684342e-14, z: -5}
-    basePosition: {x: 3, y: 0, z: -5}
+    basePosition: {x: 3, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 1.9999999, y: 5.684342e-14, z: -5}
-    basePosition: {x: 1.9999999, y: 0, z: -5}
+    basePosition: {x: 1.9999999, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0.99999994, y: 5.684342e-14, z: -5}
-    basePosition: {x: 0.99999994, y: 0, z: -5}
+    basePosition: {x: 0.99999994, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: 0, y: 5.684342e-14, z: -5}
-    basePosition: {x: 0, y: 0, z: -5}
+    basePosition: {x: 0, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.0000002, y: 5.684342e-14, z: -5}
-    basePosition: {x: -1.0000002, y: 0, z: -5}
+    basePosition: {x: -1.0000002, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -1.9999999, y: 5.684342e-14, z: -5}
-    basePosition: {x: -1.9999999, y: 0, z: -5}
+    basePosition: {x: -1.9999999, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -3, y: 5.684342e-14, z: -5}
-    basePosition: {x: -3, y: 0, z: -5}
+    basePosition: {x: -3, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -4.0000005, y: 5.684342e-14, z: -5}
-    basePosition: {x: -4.0000005, y: 0, z: -5}
+    basePosition: {x: -4.0000005, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
   - position: {x: -5, y: 5.684342e-14, z: -5}
-    basePosition: {x: -5, y: 0, z: -5}
+    basePosition: {x: -5, y: 1.110223e-16, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 1}
@@ -1183,7 +1183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0125177b17b47f24fbcd31108da56332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1495522932926584, guid: a240b71c00ccf0a4eafcc9d3c1b98c47, type: 2}
+  prefab: {fileID: 1495522932926584, guid: b657aacabcea47e45b44936405ebde2b, type: 2}
 --- !u!114 &114651804374795842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1250,7 +1250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf92ff2c3aaba64ebb7513f10622a11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 100
   invincible: 0
   onDamaged:
     m_PersistentCalls:
@@ -1305,4 +1305,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deaccelerationDuration: 0.1
-  speed: 20
+  speed: 10

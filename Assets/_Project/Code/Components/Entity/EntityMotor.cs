@@ -28,6 +28,6 @@ public class EntityMotor : MonoBehaviour
 	{
 		if (rigidbody == null)
 			rigidbody = GetComponent<Rigidbody2D> ();
-		rigidbody.AddForce (force, ForceMode2D.Impulse);
+		rigidbody.AddForce (force, ForceMode2D.Force);
 	}
 }

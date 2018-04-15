@@ -11,7 +11,7 @@ public class Damager : MonoBehaviour
 
 	private void OnCollisionEnter2D (Collision2D collision)
 	{
-		if (constant || onTrigger)
+		if (constant || onTrigger || SameLayer (collision))
 			return;
 
 		var target = collision.gameObject.GetComponent<Damageable> ();
@@ -27,7 +27,7 @@ public class Damager : MonoBehaviour
 	}
 	private void OnCollisionStay2D (Collision2D collision)
 	{
-		if (!constant || onTrigger)
+		if (!constant || onTrigger || SameLayer (collision))
 			return;
 
 		var target = collision.gameObject.GetComponent<Damageable> ();
@@ -36,7 +36,7 @@ public class Damager : MonoBehaviour
 	}
 	private void OnTriggerEnter2D (Collider2D collision)
 	{
-		if (constant || !onTrigger)
+		if (constant || !onTrigger || SameLayer (collision))
 			return;
 
 		var target = collision.gameObject.GetComponent<Damageable> ();
@@ -53,11 +53,20 @@ public class Damager : MonoBehaviour
 
 	private void OnTriggerStay2D (Collider2D collision)
 	{
-		if (!constant || !onTrigger)
+		if (!constant || !onTrigger || SameLayer (collision))
 			return;
 
 		var target = collision.gameObject.GetComponent<Damageable> ();
 		if (target != null)
 			target.ReceiveDamage (damage * Time.deltaTime);
+	}
+
+	private bool SameLayer (Collider2D collision)
+	{
+		return collision.gameObject.layer == gameObject.layer;
+	}
+	private bool SameLayer (Collision2D collision)
+	{
+		return collision.gameObject.layer == gameObject.layer;
 	}
 }
