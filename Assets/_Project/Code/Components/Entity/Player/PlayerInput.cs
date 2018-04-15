@@ -18,7 +18,7 @@ public class PlayerInput : MonoBehaviour
 
 		onMovementInput.Invoke (input);
 
-		if (player.GetButtonDown (dashButton))
+		if (player.GetButtonDown (dashButton) && input.sqrMagnitude > 0.1f)
 			onDashInput.Invoke ();
 	}
 }
