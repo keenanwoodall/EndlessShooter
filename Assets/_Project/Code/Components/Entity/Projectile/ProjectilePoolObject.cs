@@ -13,4 +13,9 @@ public class ProjectilePoolObject : PoolObject
 	{
 		rigidbody.velocity = Vector3.zero;
 	}
+
+	private void OnDisable ()
+	{
+		rigidbody.velocity = Vector3.zero;
+	}
 }

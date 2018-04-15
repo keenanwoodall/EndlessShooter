@@ -13,15 +13,21 @@ public class EntityMotor : MonoBehaviour
 		rigidbody = GetComponent<Rigidbody2D> ();
 		rigidbody.gravityScale = 0f;
 		rigidbody.constraints = RigidbodyConstraints2D.FreezeRotation;
+		rigidbody.velocity = Vector3.zero;
 	}
 
 	private void Update ()
 	{
+		MotorUpdate ();
 		rigidbody.velocity = Vector2.SmoothDamp (rigidbody.velocity, Vector3.zero, ref velocityRef, deaccelerationDuration, float.MaxValue, Time.deltaTime);
 	}
 
+	protected virtual void MotorUpdate () { }
+
 	public void AddForce (Vector2 force)
 	{
+		if (rigidbody == null)
+			rigidbody = GetComponent<Rigidbody2D> ();
 		rigidbody.AddForce (force, ForceMode2D.Impulse);
 	}
 }

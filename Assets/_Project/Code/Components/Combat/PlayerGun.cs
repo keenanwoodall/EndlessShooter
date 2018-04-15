@@ -4,8 +4,10 @@ using UnityEngine.Events;
 
 public class PlayerGun : MonoBehaviour
 {
+	public bool keepShooting;
 	public float cooldownDuration = 0.1f;
 	public GameObject projectilePrefab;
+	public AudioSource shootSound;
 	public UnityEvent onShoot = new UnityEvent ();
 
 
@@ -14,7 +16,7 @@ public class PlayerGun : MonoBehaviour
 	private void Update ()
 	{
 		var player = ReInput.players.GetPlayer ("Player");
-		if (player.GetButton ("Shoot"))
+		if (player.GetButton ("Shoot") || keepShooting)
 			if (CanShoot ())
 				Shoot ();
 	}
@@ -26,7 +28,8 @@ public class PlayerGun : MonoBehaviour
 
 	private void Shoot ()
 	{
-		PoolManager.Instance.ReuseObject (projectilePrefab, transform.position, transform.rotation);
+		Instantiate (projectilePrefab, transform.position, transform.rotation);
+		shootSound.Play ();
 		lastShotTime = Time.time;
 
 		onShoot.Invoke ();

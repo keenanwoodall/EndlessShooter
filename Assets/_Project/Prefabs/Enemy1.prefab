@@ -9,97 +9,45 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1324435153807640}
+  m_RootGameObject: {fileID: 1087479561955060}
   m_IsPrefabParent: 1
---- !u!1 &1096323168699032
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4105621273189350}
-  m_Layer: 0
-  m_Name: ShootSquashAxis
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1164055466542952
+--- !u!1 &1087479561955060
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4378160917093118}
-  - component: {fileID: 114851349639651410}
-  - component: {fileID: 114531878304430874}
-  - component: {fileID: 114602592336048014}
-  - component: {fileID: 114010694286416544}
-  - component: {fileID: 82388508913466938}
-  m_Layer: 0
-  m_Name: Gun
+  - component: {fileID: 4050434079031798}
+  - component: {fileID: 114973059323007732}
+  - component: {fileID: 114845203368706886}
+  - component: {fileID: 114580342404482114}
+  - component: {fileID: 114596049930933532}
+  - component: {fileID: 114654266021842856}
+  - component: {fileID: 50423525285428020}
+  - component: {fileID: 61666884569033242}
+  m_Layer: 12
+  m_Name: Enemy1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1211787217663466
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4432095667153202}
-  - component: {fileID: 114102823457473456}
-  - component: {fileID: 114364898316714676}
-  m_Layer: 0
-  m_Name: MoveSquashAxis
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1324435153807640
+--- !u!1 &1284495600512242
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4326981346128324}
-  - component: {fileID: 114126161930546110}
-  - component: {fileID: 114311832174161378}
-  - component: {fileID: 114672917876952066}
-  - component: {fileID: 114820648579009300}
-  - component: {fileID: 50106227706956586}
-  - component: {fileID: 61837514448283978}
-  - component: {fileID: 82442321963861118}
-  m_Layer: 8
-  m_Name: Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1835127025421554
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4818468067858672}
-  - component: {fileID: 33694308037466384}
-  - component: {fileID: 23558657158405050}
-  - component: {fileID: 114350917541550608}
-  - component: {fileID: 114131902643324422}
-  - component: {fileID: 114382642852620234}
-  - component: {fileID: 114258343978720618}
-  - component: {fileID: 114611588995655996}
+  - component: {fileID: 4135168850664150}
+  - component: {fileID: 33165905133992836}
+  - component: {fileID: 23746593205267608}
+  - component: {fileID: 114222362086958164}
+  - component: {fileID: 114651804374795842}
+  - component: {fileID: 114666973474265102}
+  - component: {fileID: 114818784063966318}
+  - component: {fileID: 114343252839383938}
   m_Layer: 0
   m_Name: Graphics
   m_TagString: Untagged
@@ -107,81 +55,99 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4105621273189350
+--- !u!1 &1510847069316580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4587734003812994}
+  m_Layer: 0
+  m_Name: HitSquashAxis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1513304026620784
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4357399855660728}
+  - component: {fileID: 114280129356921788}
+  - component: {fileID: 114502231398629776}
+  m_Layer: 0
+  m_Name: MoveSquashAxis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4050434079031798
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1096323168699032}
-  m_LocalRotation: {x: -0.70710707, y: -0, z: -0, w: 0.70710653}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4378160917093118}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
---- !u!4 &4326981346128324
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1324435153807640}
+  m_GameObject: {fileID: 1087479561955060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4818468067858672}
-  - {fileID: 4378160917093118}
+  - {fileID: 4135168850664150}
+  - {fileID: 4587734003812994}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4378160917093118
+--- !u!4 &4135168850664150
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164055466542952}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.01}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4105621273189350}
-  m_Father: {fileID: 4326981346128324}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4432095667153202
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1211787217663466}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4818468067858672}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4818468067858672
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835127025421554}
+  m_GameObject: {fileID: 1284495600512242}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_Children:
-  - {fileID: 4432095667153202}
-  m_Father: {fileID: 4326981346128324}
+  - {fileID: 4357399855660728}
+  m_Father: {fileID: 4050434079031798}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!23 &23558657158405050
+--- !u!4 &4357399855660728
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1513304026620784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4135168850664150}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4587734003812994
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1510847069316580}
+  m_LocalRotation: {x: -0.7071071, y: -0, z: -0, w: 0.70710653}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4050434079031798}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!23 &23746593205267608
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835127025421554}
+  m_GameObject: {fileID: 1284495600512242}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 0
@@ -190,7 +156,7 @@ MeshRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6c8ef77baac94bb47aeba67d453c0eff, type: 2}
+  - {fileID: 2100000, guid: e98c8a59d8d0af743815896e19a2d835, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -210,20 +176,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33694308037466384
+--- !u!33 &33165905133992836
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835127025421554}
-  m_Mesh: {fileID: 0}
---- !u!50 &50106227706956586
+  m_GameObject: {fileID: 1284495600512242}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!50 &50423525285428020
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1324435153807640}
+  m_GameObject: {fileID: 1087479561955060}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -237,12 +203,12 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!61 &61837514448283978
+--- !u!61 &61666884569033242
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1324435153807640}
+  m_GameObject: {fileID: 1087479561955060}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -260,384 +226,83 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.25}
+  m_Size: {x: 0.3, y: 0.3}
   m_EdgeRadius: 0
---- !u!82 &82388508913466938
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164055466542952}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: f9203e8c21921204e99b9d0ae41fef7f,
-    type: 2}
-  m_audioClip: {fileID: 8300000, guid: 7844bb425ea33df468f8c9a9c21bbd68, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &82442321963861118
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1324435153807640}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: f9203e8c21921204e99b9d0ae41fef7f,
-    type: 2}
-  m_audioClip: {fileID: 8300000, guid: 5bf8badd923abc1489f715f807ba9c5d, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 2
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!114 &114010694286416544
+--- !u!114 &114222362086958164
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164055466542952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aed8e2ed1b0fd78479da8a4e231028cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  a: {fileID: 114851349639651410}
-  b: {fileID: 114531878304430874}
-  aInputAxes:
-  - Move Mouse Horizontal
-  - Move Mouse Vertical
-  bInputAxes:
-  - Look Horizontal
-  - Look Vertical
---- !u!114 &114102823457473456
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1211787217663466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63759d365aa2ffb4abfcee4114893e3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minVelocity: 0.1
-  axis: 1
-  rigidbody: {fileID: 50106227706956586}
---- !u!114 &114126161930546110
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1324435153807640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a87ec1156f3fcd8499ac539809e34ab3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 50
-  dashVelocity: 50
-  dashDuration: 0.01
-  dashCooldownDuration: 0
-  onDash:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 82442321963861118}
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &114131902643324422
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835127025421554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7753daf06ad7d7e4ebea81414222d243, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  update: 1
-  amount: 0
-  curvature: 0
-  axis: {fileID: 4432095667153202}
---- !u!114 &114258343978720618
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835127025421554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 918516d35c313394ba800c44aef2e877, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: 0.1
-  to: -0.25
-  sns: {fileID: 114382642852620234}
---- !u!114 &114311832174161378
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1324435153807640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0b419665461e4542974c1bdf4d149c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontalAxis: Move Horizontal
-  verticalAxis: Move Vertical
-  dashButton: Dash
-  onMovementInput:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114126161930546110}
-        m_MethodName: HandleMovementInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: InputMovementEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  onDashInput:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114126161930546110}
-        m_MethodName: HandleDashInput
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: InputDashEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
---- !u!114 &114350917541550608
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835127025421554}
+  m_GameObject: {fileID: 1284495600512242}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ecb8f489b92edd145a48c188a811f039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 33694308037466384}
+  target: {fileID: 33165905133992836}
   skinnedTarget: {fileID: 0}
   vertexData:
-  - position: {x: 5, y: 0, z: 5}
+  - position: {x: 5, y: -5.684342e-14, z: 5}
     basePosition: {x: 5, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: 0, z: 5}
+  - position: {x: 4, y: -5.684342e-14, z: 5}
     basePosition: {x: 4, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: 0, z: 5}
+  - position: {x: 3, y: -5.684342e-14, z: 5}
     basePosition: {x: 3, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: 0, z: 5}
+  - position: {x: 1.9999999, y: -5.684342e-14, z: 5}
     basePosition: {x: 1.9999999, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: 0, z: 5}
+  - position: {x: 0.99999994, y: -5.684342e-14, z: 5}
     basePosition: {x: 0.99999994, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: 0, z: 5}
+  - position: {x: 0, y: -5.684342e-14, z: 5}
     basePosition: {x: 0, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: 0, z: 5}
+  - position: {x: -1.0000002, y: -5.684342e-14, z: 5}
     basePosition: {x: -1.0000002, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: 0, z: 5}
+  - position: {x: -1.9999999, y: -5.684342e-14, z: 5}
     basePosition: {x: -1.9999999, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: 0, z: 5}
+  - position: {x: -3, y: -5.684342e-14, z: 5}
     basePosition: {x: -3, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: 0, z: 5}
+  - position: {x: -4.0000005, y: -5.684342e-14, z: 5}
     basePosition: {x: -4.0000005, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: 0, z: 5}
+  - position: {x: -5, y: -5.684342e-14, z: 5}
     basePosition: {x: -5, y: 0, z: 5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
@@ -709,199 +374,199 @@ MonoBehaviour:
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 5, y: 0, z: 3}
+  - position: {x: 5, y: 5.684342e-14, z: 3}
     basePosition: {x: 5, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: 0, z: 3}
+  - position: {x: 4, y: 5.684342e-14, z: 3}
     basePosition: {x: 4, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: 0, z: 3}
+  - position: {x: 3, y: 5.684342e-14, z: 3}
     basePosition: {x: 3, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: 0, z: 3}
+  - position: {x: 1.9999999, y: 5.684342e-14, z: 3}
     basePosition: {x: 1.9999999, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: 0, z: 3}
+  - position: {x: 0.99999994, y: 5.684342e-14, z: 3}
     basePosition: {x: 0.99999994, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: 0, z: 3}
+  - position: {x: 0, y: 5.684342e-14, z: 3}
     basePosition: {x: 0, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: 0, z: 3}
+  - position: {x: -1.0000002, y: 5.684342e-14, z: 3}
     basePosition: {x: -1.0000002, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: 0, z: 3}
+  - position: {x: -1.9999999, y: 5.684342e-14, z: 3}
     basePosition: {x: -1.9999999, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: 0, z: 3}
+  - position: {x: -3, y: 5.684342e-14, z: 3}
     basePosition: {x: -3, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: 0, z: 3}
+  - position: {x: -4.0000005, y: 5.684342e-14, z: 3}
     basePosition: {x: -4.0000005, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: 0, z: 3}
+  - position: {x: -5, y: 5.684342e-14, z: 3}
     basePosition: {x: -5, y: 0, z: 3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.2}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 5, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: 5, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: 5, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: 4, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: 4, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: 3, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: 3, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: 1.9999999, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: 1.9999999, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: 0.99999994, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: 0.99999994, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: 0, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: 0, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: -1.0000002, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: -1.0000002, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: -1.9999999, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: -1.9999999, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: -3, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: -3, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: -4.0000005, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: -4.0000005, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: 2.3249496e-14, z: 1.9999999}
+  - position: {x: -5, y: 1.32009e-14, z: 1.9999999}
     basePosition: {x: -5, y: 2.3249496e-14, z: 1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.3}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 5, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: 5, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: 5, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: 4, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: 4, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: 3, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: 3, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: 1.9999999, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: 1.9999999, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: 0.99999994, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: 0.99999994, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: 0, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: 0, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: -1.0000002, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: -1.0000002, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: -1.9999999, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: -1.9999999, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: -3, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: -3, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: -4.0000005, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: -4.0000005, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.4}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: 1.1624748e-14, z: 0.99999994}
+  - position: {x: -5, y: 6.60045e-15, z: 0.99999994}
     basePosition: {x: -5, y: 1.1624748e-14, z: 0.99999994}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
@@ -973,331 +638,331 @@ MonoBehaviour:
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.5}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 5, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 5, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: 5, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 4, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: 4, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 3, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: 3, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 1.9999999, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: 1.9999999, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 0.99999994, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: 0.99999994, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: 0, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: 0, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -1.0000002, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: -1.0000002, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -1.9999999, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: -1.9999999, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -3, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: -3, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -4.0000005, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: -4.0000005, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: -1.0344427e-14, z: -1.0000002}
+  - position: {x: -5, y: -3.044162e-14, z: -1.0000002}
     basePosition: {x: -5, y: -1.0344427e-14, z: -1.0000002}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.6}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 5, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: 5, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: 5, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: 4, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: 4, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: 3, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: 3, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: 1.9999999, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: 1.9999999, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: 0.99999994, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: 0.99999994, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: 0, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: 0, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: -1.0000002, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: -1.0000002, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: -1.9999999, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: -1.9999999, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: -3, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: -3, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: -4.0000005, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: -4.0000005, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: -2.3249496e-14, z: -1.9999999}
+  - position: {x: -5, y: -1.32009e-14, z: -1.9999999}
     basePosition: {x: -5, y: -2.3249496e-14, z: -1.9999999}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.7}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 5, y: 0, z: -3}
+  - position: {x: 5, y: -5.684342e-14, z: -3}
     basePosition: {x: 5, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: 0, z: -3}
+  - position: {x: 4, y: -5.684342e-14, z: -3}
     basePosition: {x: 4, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: 0, z: -3}
+  - position: {x: 3, y: -5.684342e-14, z: -3}
     basePosition: {x: 3, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: 0, z: -3}
+  - position: {x: 1.9999999, y: -5.684342e-14, z: -3}
     basePosition: {x: 1.9999999, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: 0, z: -3}
+  - position: {x: 0.99999994, y: -5.684342e-14, z: -3}
     basePosition: {x: 0.99999994, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: 0, z: -3}
+  - position: {x: 0, y: -5.684342e-14, z: -3}
     basePosition: {x: 0, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: 0, z: -3}
+  - position: {x: -1.0000002, y: -5.684342e-14, z: -3}
     basePosition: {x: -1.0000002, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: 0, z: -3}
+  - position: {x: -1.9999999, y: -5.684342e-14, z: -3}
     basePosition: {x: -1.9999999, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: 0, z: -3}
+  - position: {x: -3, y: -5.684342e-14, z: -3}
     basePosition: {x: -3, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: 0, z: -3}
+  - position: {x: -4.0000005, y: -5.684342e-14, z: -3}
     basePosition: {x: -4.0000005, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: 0, z: -3}
+  - position: {x: -5, y: -5.684342e-14, z: -3}
     basePosition: {x: -5, y: 0, z: -3}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.8}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 5, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: 5, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: 5, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: 4, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: 4, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: 3, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: 3, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: 1.9999999, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: 1.9999999, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: 0.99999994, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: 0.99999994, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: 0, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: 0, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: -1.0000002, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: -1.0000002, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: -1.9999999, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: -1.9999999, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: -3, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: -3, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: -4.0000005, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: -4.0000005, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: 9.2997983e-14, z: -4.0000005}
+  - position: {x: -5, y: 5.28036e-14, z: -4.0000005}
     basePosition: {x: -5, y: 9.2997983e-14, z: -4.0000005}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 1, y: 0.90000004}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 5, y: 0, z: -5}
+  - position: {x: 5, y: 5.684342e-14, z: -5}
     basePosition: {x: 5, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 4, y: 0, z: -5}
+  - position: {x: 4, y: 5.684342e-14, z: -5}
     basePosition: {x: 4, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.1, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 3, y: 0, z: -5}
+  - position: {x: 3, y: 5.684342e-14, z: -5}
     basePosition: {x: 3, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.2, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 1.9999999, y: 0, z: -5}
+  - position: {x: 1.9999999, y: 5.684342e-14, z: -5}
     basePosition: {x: 1.9999999, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.3, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0.99999994, y: 0, z: -5}
+  - position: {x: 0.99999994, y: 5.684342e-14, z: -5}
     basePosition: {x: 0.99999994, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.4, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: 0, y: 0, z: -5}
+  - position: {x: 0, y: 5.684342e-14, z: -5}
     basePosition: {x: 0, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.5, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.0000002, y: 0, z: -5}
+  - position: {x: -1.0000002, y: 5.684342e-14, z: -5}
     basePosition: {x: -1.0000002, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.6, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -1.9999999, y: 0, z: -5}
+  - position: {x: -1.9999999, y: 5.684342e-14, z: -5}
     basePosition: {x: -1.9999999, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.7, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -3, y: 0, z: -5}
+  - position: {x: -3, y: 5.684342e-14, z: -5}
     basePosition: {x: -3, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.8, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -4.0000005, y: 0, z: -5}
+  - position: {x: -4.0000005, y: 5.684342e-14, z: -5}
     basePosition: {x: -4.0000005, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
     uv: {x: 0.90000004, y: 1}
     color: {r: 0, g: 0, b: 0, a: 0}
-  - position: {x: -5, y: 0, z: -5}
+  - position: {x: -5, y: 5.684342e-14, z: -5}
     basePosition: {x: -5, y: 0, z: -5}
     normal: {x: 0, y: 1, z: 0}
     tangent: {x: -1, y: 0, z: 0, w: -1}
@@ -1427,18 +1092,45 @@ MonoBehaviour:
   - {x: 0, y: 1, z: 0}
   - {x: 0, y: 1, z: 0}
   - {x: 0, y: 1, z: 0}
-  updateMode: 0
-  normalsCalculation: 3
+  updateMode: 1
+  normalsCalculation: 0
   smoothingAngle: 60
   deformers:
-  - {fileID: 114131902643324422}
-  - {fileID: 114382642852620234}
---- !u!114 &114364898316714676
+  - {fileID: 114651804374795842}
+  - {fileID: 114666973474265102}
+--- !u!114 &114280129356921788
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1211787217663466}
+  m_GameObject: {fileID: 1513304026620784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63759d365aa2ffb4abfcee4114893e3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minVelocity: 0.1
+  axis: 1
+  rigidbody: {fileID: 50423525285428020}
+--- !u!114 &114343252839383938
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284495600512242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e717ef404b72841aae2fe7e2203635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0.1
+  renderer: {fileID: 23746593205267608}
+--- !u!114 &114502231398629776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1513304026620784}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b653f514d7d520c4099fd115d277d7d9, type: 3}
@@ -1446,13 +1138,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bias: 1
   scale: 0.03
-  rigidbody: {fileID: 50106227706956586}
---- !u!114 &114382642852620234
+  rigidbody: {fileID: 50423525285428020}
+--- !u!114 &114580342404482114
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835127025421554}
+  m_GameObject: {fileID: 1087479561955060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177c3e14de20e6b4a83880f4d3d0bb44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onTrigger: 0
+  damage: 10
+  addForce: 0
+  force: 10
+  constant: 0
+--- !u!114 &114596049930933532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1087479561955060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0125177b17b47f24fbcd31108da56332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1495522932926584, guid: a240b71c00ccf0a4eafcc9d3c1b98c47, type: 2}
+--- !u!114 &114651804374795842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1284495600512242}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7753daf06ad7d7e4ebea81414222d243, type: 3}
@@ -1461,94 +1181,64 @@ MonoBehaviour:
   update: 1
   amount: 0
   curvature: 0
-  axis: {fileID: 4105621273189350}
---- !u!114 &114531878304430874
+  axis: {fileID: 4357399855660728}
+--- !u!114 &114654266021842856
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164055466542952}
+  m_GameObject: {fileID: 1087479561955060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ba65a08bb7ded44cbad13766df06ba9, type: 3}
+  m_Script: {fileID: 11500000, guid: 455b3a7753849d44e916a6d970174fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xAxis: Look Horizontal
-  yAxis: Look Vertical
---- !u!114 &114602592336048014
+--- !u!114 &114666973474265102
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164055466542952}
+  m_GameObject: {fileID: 1284495600512242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ddae437e01413341b043c88fb442a2f, type: 3}
+  m_Script: {fileID: 11500000, guid: 7753daf06ad7d7e4ebea81414222d243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keepShooting: 0
-  cooldownDuration: 0.15
-  projectilePrefab: {fileID: 1654387276978304, guid: a3dc7e517217b0f4b891bff4908868b2,
-    type: 2}
-  shootSound: {fileID: 82388508913466938}
-  onShoot:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114258343978720618}
-        m_MethodName: Punch
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &114611588995655996
+  update: 1
+  amount: 0
+  curvature: 0
+  axis: {fileID: 4587734003812994}
+--- !u!114 &114818784063966318
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835127025421554}
+  m_GameObject: {fileID: 1284495600512242}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61e717ef404b72841aae2fe7e2203635, type: 3}
+  m_Script: {fileID: 11500000, guid: 918516d35c313394ba800c44aef2e877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 0.1
-  renderer: {fileID: 23558657158405050}
---- !u!114 &114672917876952066
+  to: -0.25
+  sns: {fileID: 114666973474265102}
+--- !u!114 &114845203368706886
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1324435153807640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9d0176018805b34c8c869c59f31383c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deaccelerationDuration: 0.05
---- !u!114 &114820648579009300
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1324435153807640}
+  m_GameObject: {fileID: 1087479561955060}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bf92ff2c3aaba64ebb7513f10622a11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 30
   invincible: 0
   onDamaged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114611588995655996}
+      - m_Target: {fileID: 114343252839383938}
         m_MethodName: DoFlash
         m_Mode: 1
         m_Arguments:
@@ -1562,17 +1252,40 @@ MonoBehaviour:
     m_TypeName: DamagedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   onKilled:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114596049930933532}
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 114654266021842856}
+        m_MethodName: DestroyGO
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: KilledEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
---- !u!114 &114851349639651410
+--- !u!114 &114973059323007732
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1164055466542952}
+  m_GameObject: {fileID: 1087479561955060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfc44d75c3fdf03479334ddcff2a5d08, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f202eb6d1b58374e812996d5d14f2e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
+  deaccelerationDuration: 0.1
+  speed: 20

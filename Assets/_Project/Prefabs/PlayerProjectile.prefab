@@ -36,12 +36,13 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4841716249357512}
-  - component: {fileID: 114252434948656476}
   - component: {fileID: 114292618167817536}
   - component: {fileID: 114070411050414836}
   - component: {fileID: 114270497349918732}
+  - component: {fileID: 114136621943520408}
   - component: {fileID: 114959188381767908}
   - component: {fileID: 114768039982081162}
+  - component: {fileID: 114987691822946774}
   - component: {fileID: 50803796037814250}
   - component: {fileID: 61162897796581420}
   - component: {fileID: 82304059436858586}
@@ -163,7 +164,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.3}
+  m_Size: {x: 0.125, y: 0.2}
   m_EdgeRadius: 0
 --- !u!82 &82304059436858586
 AudioSource:
@@ -176,7 +177,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: f9203e8c21921204e99b9d0ae41fef7f,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 7844bb425ea33df468f8c9a9c21bbd68, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -258,7 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deaccelerationDuration: 0.1
---- !u!114 &114252434948656476
+--- !u!114 &114136621943520408
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -266,14 +267,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1654387276978304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 708ad439bd1221c408242b48490a9dd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 177c3e14de20e6b4a83880f4d3d0bb44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onReuse:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  onTrigger: 1
+  damage: 10
+  addForce: 1
+  force: 5
+  constant: 0
 --- !u!114 &114270497349918732
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -305,8 +306,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114252434948656476}
-        m_MethodName: Destroy
+      - m_Target: {fileID: 114987691822946774}
+        m_MethodName: DestroyGO
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -328,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b7b56b181bf63a4f944a63fbbcf630d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
+  speed: 250
 --- !u!114 &114768039982081162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -356,3 +357,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1996958051900246, guid: f43a435046df52846ab83877fbe28343, type: 2}
+--- !u!114 &114987691822946774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654387276978304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455b3a7753849d44e916a6d970174fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

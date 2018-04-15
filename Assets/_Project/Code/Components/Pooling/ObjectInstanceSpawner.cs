@@ -6,6 +6,6 @@ public class ObjectInstanceSpawner : MonoBehaviour
 
 	public void Spawn ()
 	{
-		PoolManager.Instance.ReuseObject (prefab, transform.position, transform.rotation * prefab.transform.rotation);
+		Instantiate (prefab, transform.position, transform.rotation * prefab.transform.rotation);
 	}
 }
