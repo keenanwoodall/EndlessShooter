@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 114070411050414836}
   - component: {fileID: 114270497349918732}
   - component: {fileID: 114959188381767908}
+  - component: {fileID: 114768039982081162}
   - component: {fileID: 50803796037814250}
   - component: {fileID: 61162897796581420}
   - component: {fileID: 82304059436858586}
@@ -59,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 1491572339927212}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.1, y: 0.2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 4841716249357512}
   m_RootOrder: 0
@@ -162,7 +163,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.2}
+  m_Size: {x: 0.2, y: 0.3}
   m_EdgeRadius: 0
 --- !u!82 &82304059436858586
 AudioSource:
@@ -172,7 +173,8 @@ AudioSource:
   m_GameObject: {fileID: 1654387276978304}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: f9203e8c21921204e99b9d0ae41fef7f,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 7844bb425ea33df468f8c9a9c21bbd68, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -327,6 +329,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 500
+--- !u!114 &114768039982081162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654387276978304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce06e67108d6b9b4b90bb407d306f7e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onAwake: 1
+  basePitch: 1
+  offset: 0.1
+  source: {fileID: 82304059436858586}
 --- !u!114 &114959188381767908
 MonoBehaviour:
   m_ObjectHideFlags: 1

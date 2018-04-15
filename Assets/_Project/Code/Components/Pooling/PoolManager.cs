@@ -20,11 +20,10 @@ public class PoolManager : MonoBehaviour
 		public void Reuse (Vector3 position, Quaternion rotation)
 		{
 			instance.SetActive (true);
-			instance.transform.position = position;
-			instance.transform.rotation = rotation;
-
 			if (hasPoolObject)
 				poolObject.OnReuse ();
+			instance.transform.position = position;
+			instance.transform.rotation = rotation;
 		}
 	}
 
