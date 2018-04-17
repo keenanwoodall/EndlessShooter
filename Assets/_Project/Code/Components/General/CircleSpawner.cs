@@ -23,7 +23,7 @@ public class CircleSpawner : MonoBehaviour
 
 			yield return new WaitForSeconds (delay);
 
-			delay -= delayDecay;
+			delay -= delayDecay * delay;
 			if (delay < minDelay)
 				delay = minDelay;
 		}
