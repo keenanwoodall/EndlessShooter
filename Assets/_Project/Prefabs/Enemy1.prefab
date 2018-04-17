@@ -1250,7 +1250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf92ff2c3aaba64ebb7513f10622a11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 30
+  health: 20
   invincible: 0
   onDamaged:
     m_PersistentCalls:
